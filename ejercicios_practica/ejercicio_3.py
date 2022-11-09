@@ -30,3 +30,9 @@ numeros = [1, 5, -1, 6, 10, 2, -5]
 
 # Imprimir en pantalla la variable temperaturas
 # El resultado final de la suma deberá ser 18
+
+suma_total=0
+for i in numeros:
+        suma_total+=i
+print(f"la suma total es {suma_total}")
+

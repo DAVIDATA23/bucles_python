@@ -35,3 +35,14 @@
 # Imprimir en pantalla la variable temperaturas
 # Deberá observar sus 5 temperaturas ingresadas
 # por consola
+
+temperaturas=[]
+
+for i in range(5):
+
+    imput_tempertura= float(input("ingrese valor de temperatura\n"))
+    temperaturas.append(imput_tempertura)
+
+
+
+print(f"valores de temperaturas {temperaturas}")
